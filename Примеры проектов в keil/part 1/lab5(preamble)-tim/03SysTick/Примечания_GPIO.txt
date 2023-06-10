@@ -1,0 +1,30 @@
+
+    Адресация объектов (регистров) ПарПортов (файл stm32f10x.h)
+    
+1001    typedef struct      //  Вот определен тип структуры для доступа к регистрам ПарПорта
+        {
+          __IO uint32_t CRL;    //  +0x00
+          __IO uint32_t CRH;    //  +0x04
+          __IO uint32_t IDR;    //  +0x08
+          __IO uint32_t ODR;    //  +0x0C
+          __IO uint32_t BSRR;   //  +0x10
+          __IO uint32_t BRR;    //  +0x14
+          __IO uint32_t LCKR;   //  +0x18
+        } GPIO_TypeDef;
+        
+1274    #define PERIPH_BASE           ((uint32_t)0x40000000) /*!< Peripheral base address in the alias region */
+1283    #define APB2PERIPH_BASE       (PERIPH_BASE + 0x10000)       //  Т.е. 0x40010000
+1315    #define GPIOA_BASE            (APB2PERIPH_BASE + 0x0800)    //  Т.е. 0x40010800
+1316    #define GPIOB_BASE            (APB2PERIPH_BASE + 0x0C00)
+1317    #define GPIOC_BASE            (APB2PERIPH_BASE + 0x1000)    //  Т.е. 0x40011000
+1318    #define GPIOD_BASE            (APB2PERIPH_BASE + 0x1400)
+
+1408    #define GPIOA               ((GPIO_TypeDef *) GPIOA_BASE)
+        #define GPIOB               ((GPIO_TypeDef *) GPIOB_BASE)
+        #define GPIOC               ((GPIO_TypeDef *) GPIOC_BASE)
+        #define GPIOD               ((GPIO_TypeDef *) GPIOD_BASE)
+        
+    Теперь можно обращаться к регистру BSRR вот так:
+    0GPIOC->BSRR = abcd;     //  Обращение к адресу 0x4000000+0x10000+0x1000+010=0x40011010  
+        
+        

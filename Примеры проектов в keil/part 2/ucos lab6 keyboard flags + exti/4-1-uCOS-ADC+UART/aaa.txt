@@ -1,0 +1,205 @@
+;#<FEEDBACK># ARM Linker, 5.03 [Build 76]: Last Updated: Mon Jun 13 01:12:43 2022
+;VERSION 0.2
+;FILE bsp.o
+__asm___5_bsp_c_BSP_Init____REV16 <= USED 0
+__asm___5_bsp_c_BSP_Init____REVSH <= USED 0
+;FILE bsp_int.o
+BSP_IntClr <= USED 0
+BSP_IntDis <= USED 0
+BSP_IntEn <= USED 0
+BSP_IntInit <= USED 0
+BSP_IntPrioSet <= USED 0
+__asm___9_bsp_int_c_5d360aa1____REV16 <= USED 0
+__asm___9_bsp_int_c_5d360aa1____REVSH <= USED 0
+;FILE bsp_periph.o
+BSP_PeriphClkFreqGet <= USED 0
+BSP_PeriphDis <= USED 0
+BSP_PeriphEn <= USED 0
+__asm___12_bsp_periph_c_7b928d52____REV16 <= USED 0
+__asm___12_bsp_periph_c_7b928d52____REVSH <= USED 0
+;FILE cpu_c.o
+CPU_BitBandClr <= USED 0
+CPU_BitBandSet <= USED 0
+CPU_IntSrcDis <= USED 0
+CPU_IntSrcEn <= USED 0
+CPU_IntSrcPrioGet <= USED 0
+CPU_IntSrcPrioSet <= USED 0
+;FILE misc.o
+NVIC_PriorityGroupConfig <= USED 0
+NVIC_SetVectorTable <= USED 0
+NVIC_SystemLPConfig <= USED 0
+SysTick_CLKSourceConfig <= USED 0
+__asm___6_misc_c_d0fc1254____REV16 <= USED 0
+__asm___6_misc_c_d0fc1254____REVSH <= USED 0
+;FILE os_core.o
+OSIntEnter <= USED 0
+OSSchedLock <= USED 0
+OSSchedUnlock <= USED 0
+OSVersion <= USED 0
+OS_MemCopy <= USED 0
+;FILE os_cpu_c.o
+OSTaskIdleHook <= USED 0
+OSTaskStatHook <= USED 0
+;FILE os_flag.o
+OSFlagAccept <= USED 0
+OSFlagPost <= USED 0
+OSFlagQuery <= USED 0
+;FILE os_mbox.o
+;FILE os_task.o
+OSTaskDelReq <= USED 0
+OSTaskResume <= USED 0
+OSTaskSuspend <= USED 0
+;FILE os_time.o
+;FILE stm32f10x_adc.o
+ADC_AnalogWatchdogCmd <= USED 0
+ADC_AnalogWatchdogSingleChannelConfig <= USED 0
+ADC_AnalogWatchdogThresholdsConfig <= USED 0
+ADC_AutoInjectedConvCmd <= USED 0
+ADC_ClearFlag <= USED 0
+ADC_ClearITPendingBit <= USED 0
+ADC_Cmd <= USED 0
+ADC_DMACmd <= USED 0
+ADC_DeInit <= USED 0
+ADC_DiscModeChannelCountConfig <= USED 0
+ADC_DiscModeCmd <= USED 0
+ADC_ExternalTrigConvCmd <= USED 0
+ADC_ExternalTrigInjectedConvCmd <= USED 0
+ADC_ExternalTrigInjectedConvConfig <= USED 0
+ADC_GetCalibrationStatus <= USED 0
+ADC_GetConversionValue <= USED 0
+ADC_GetDualModeConversionValue <= USED 0
+ADC_GetFlagStatus <= USED 0
+ADC_GetITStatus <= USED 0
+ADC_GetInjectedConversionValue <= USED 0
+ADC_GetResetCalibrationStatus <= USED 0
+ADC_GetSoftwareStartConvStatus <= USED 0
+ADC_GetSoftwareStartInjectedConvCmdStatus <= USED 0
+ADC_ITConfig <= USED 0
+ADC_Init <= USED 0
+ADC_InjectedChannelConfig <= USED 0
+ADC_InjectedDiscModeCmd <= USED 0
+ADC_InjectedSequencerLengthConfig <= USED 0
+ADC_RegularChannelConfig <= USED 0
+ADC_ResetCalibration <= USED 0
+ADC_SetInjectedOffset <= USED 0
+ADC_SoftwareStartConvCmd <= USED 0
+ADC_SoftwareStartInjectedConvCmd <= USED 0
+ADC_StartCalibration <= USED 0
+ADC_StructInit <= USED 0
+ADC_TempSensorVrefintCmd <= USED 0
+__asm___15_stm32f10x_adc_c_e11a2ea2____REV16 <= USED 0
+__asm___15_stm32f10x_adc_c_e11a2ea2____REVSH <= USED 0
+;FILE stm32f10x_exti.o
+EXTI_ClearFlag <= USED 0
+EXTI_ClearITPendingBit <= USED 0
+EXTI_DeInit <= USED 0
+EXTI_GenerateSWInterrupt <= USED 0
+EXTI_GetFlagStatus <= USED 0
+EXTI_GetITStatus <= USED 0
+EXTI_StructInit <= USED 0
+__asm___16_stm32f10x_exti_c_28b3b60e____REV16 <= USED 0
+__asm___16_stm32f10x_exti_c_28b3b60e____REVSH <= USED 0
+;FILE stm32f10x_flash.o
+FLASH_ClearFlag <= USED 0
+FLASH_EnableWriteProtection <= USED 0
+FLASH_EraseAllBank1Pages <= USED 0
+FLASH_EraseAllPages <= USED 0
+FLASH_EraseOptionBytes <= USED 0
+FLASH_ErasePage <= USED 0
+FLASH_GetBank1Status <= USED 0
+FLASH_GetFlagStatus <= USED 0
+FLASH_GetPrefetchBufferStatus <= USED 0
+FLASH_GetReadOutProtectionStatus <= USED 0
+FLASH_GetStatus <= USED 0
+FLASH_GetUserOptionByte <= USED 0
+FLASH_GetWriteProtectionOptionByte <= USED 0
+FLASH_HalfCycleAccessCmd <= USED 0
+FLASH_ITConfig <= USED 0
+FLASH_Lock <= USED 0
+FLASH_LockBank1 <= USED 0
+FLASH_ProgramHalfWord <= USED 0
+FLASH_ProgramOptionByteData <= USED 0
+FLASH_ProgramWord <= USED 0
+FLASH_ReadOutProtection <= USED 0
+FLASH_Unlock <= USED 0
+FLASH_UnlockBank1 <= USED 0
+FLASH_UserOptionByteConfig <= USED 0
+FLASH_WaitForLastBank1Operation <= USED 0
+FLASH_WaitForLastOperation <= USED 0
+__asm___17_stm32f10x_flash_c_a2a150d6____REV16 <= USED 0
+__asm___17_stm32f10x_flash_c_a2a150d6____REVSH <= USED 0
+;FILE stm32f10x_gpio.o
+GPIO_AFIODeInit <= USED 0
+GPIO_DeInit <= USED 0
+GPIO_ETH_MediaInterfaceConfig <= USED 0
+GPIO_EventOutputCmd <= USED 0
+GPIO_EventOutputConfig <= USED 0
+GPIO_PinLockConfig <= USED 0
+GPIO_PinRemapConfig <= USED 0
+GPIO_ReadInputData <= USED 0
+GPIO_ReadInputDataBit <= USED 0
+GPIO_ReadOutputData <= USED 0
+GPIO_Write <= USED 0
+GPIO_WriteBit <= USED 0
+__asm___16_stm32f10x_gpio_c_f8e8e39a____REV16 <= USED 0
+__asm___16_stm32f10x_gpio_c_f8e8e39a____REVSH <= USED 0
+;FILE stm32f10x_rcc.o
+RCC_AHBPeriphClockCmd <= USED 0
+RCC_APB1PeriphClockCmd <= USED 0
+RCC_APB1PeriphResetCmd <= USED 0
+RCC_APB2PeriphResetCmd <= USED 0
+RCC_AdjustHSICalibrationValue <= USED 0
+RCC_BackupResetCmd <= USED 0
+RCC_ClearFlag <= USED 0
+RCC_ClearITPendingBit <= USED 0
+RCC_ClockSecuritySystemCmd <= USED 0
+RCC_GetITStatus <= USED 0
+RCC_HSICmd <= USED 0
+RCC_ITConfig <= USED 0
+RCC_LSEConfig <= USED 0
+RCC_LSICmd <= USED 0
+RCC_MCOConfig <= USED 0
+RCC_RTCCLKCmd <= USED 0
+RCC_RTCCLKConfig <= USED 0
+RCC_USBCLKConfig <= USED 0
+__asm___15_stm32f10x_rcc_c_49e27980____REV16 <= USED 0
+__asm___15_stm32f10x_rcc_c_49e27980____REVSH <= USED 0
+;FILE stm32f10x_usart.o
+USART_ClearFlag <= USED 0
+USART_ClearITPendingBit <= USED 0
+USART_ClockInit <= USED 0
+USART_ClockStructInit <= USED 0
+USART_Cmd <= USED 0
+USART_DMACmd <= USED 0
+USART_DeInit <= USED 0
+USART_GetFlagStatus <= USED 0
+USART_GetITStatus <= USED 0
+USART_HalfDuplexCmd <= USED 0
+USART_ITConfig <= USED 0
+USART_Init <= USED 0
+USART_IrDACmd <= USED 0
+USART_IrDAConfig <= USED 0
+USART_LINBreakDetectLengthConfig <= USED 0
+USART_LINCmd <= USED 0
+USART_OneBitMethodCmd <= USED 0
+USART_OverSampling8Cmd <= USED 0
+USART_ReceiveData <= USED 0
+USART_ReceiverWakeUpCmd <= USED 0
+USART_SendBreak <= USED 0
+USART_SendData <= USED 0
+USART_SetAddress <= USED 0
+USART_SetGuardTime <= USED 0
+USART_SetPrescaler <= USED 0
+USART_SmartCardCmd <= USED 0
+USART_SmartCardNACKCmd <= USED 0
+USART_StructInit <= USED 0
+USART_WakeUpConfig <= USED 0
+__asm___17_stm32f10x_usart_c_9565154b____REV16 <= USED 0
+__asm___17_stm32f10x_usart_c_9565154b____REVSH <= USED 0
+;FILE ucoskeyboardflagsexti.o
+EXTI0_IrqHandler <= USED 0
+EXTI1_IrqHandler <= USED 0
+EXTI2_IrqHandler <= USED 0
+EXTI3_IrqHandler <= USED 0
+__asm___23_ucosKeyboardFlagsExti_c_main____REV16 <= USED 0
+__asm___23_ucosKeyboardFlagsExti_c_main____REVSH <= USED 0

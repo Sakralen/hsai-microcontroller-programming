@@ -1,0 +1,15 @@
+.\obj\usart-poll.o: Src\Usart-Poll.c
+.\obj\usart-poll.o: ..\CMSIS\stm32f10x.h
+.\obj\usart-poll.o: ..\CMSIS\core_cm3.h
+.\obj\usart-poll.o: C:\Keil473\ARM\ARMCC\bin\..\include\stdint.h
+.\obj\usart-poll.o: C:\Keil473\ARM\CMSIS\Include\core_cmInstr.h
+.\obj\usart-poll.o: C:\Keil473\ARM\CMSIS\Include\core_cmFunc.h
+.\obj\usart-poll.o: ..\CMSIS\system_stm32f10x.h
+.\obj\usart-poll.o: .\Src\stm32f10x_conf.h
+.\obj\usart-poll.o: ..\SPL\inc\stm32f10x_exti.h
+.\obj\usart-poll.o: ..\CMSIS\stm32f10x.h
+.\obj\usart-poll.o: ..\SPL\inc\stm32f10x_gpio.h
+.\obj\usart-poll.o: ..\SPL\inc\stm32f10x_rcc.h
+.\obj\usart-poll.o: ..\SPL\inc\stm32f10x_tim.h
+.\obj\usart-poll.o: ..\SPL\inc\stm32f10x_usart.h
+.\obj\usart-poll.o: ..\SPL\inc\misc.h

@@ -1,0 +1,14 @@
+.\obj\systick.o: Src\SysTick.c
+.\obj\systick.o: ..\CMSIS\stm32f10x.h
+.\obj\systick.o: ..\CMSIS\core_cm3.h
+.\obj\systick.o: C:\Keil473\ARM\ARMCC\bin\..\include\stdint.h
+.\obj\systick.o: C:\Keil473\ARM\CMSIS\Include\core_cmInstr.h
+.\obj\systick.o: C:\Keil473\ARM\CMSIS\Include\core_cmFunc.h
+.\obj\systick.o: ..\CMSIS\system_stm32f10x.h
+.\obj\systick.o: .\Src\stm32f10x_conf.h
+.\obj\systick.o: ..\SPL\inc\stm32f10x_gpio.h
+.\obj\systick.o: ..\CMSIS\stm32f10x.h
+.\obj\systick.o: ..\SPL\inc\stm32f10x_rcc.h
+.\obj\systick.o: ..\SPL\inc\stm32f10x_tim.h
+.\obj\systick.o: ..\SPL\inc\misc.h
+.\obj\systick.o: ..\SPL\inc\stm32f10x_exti.h

@@ -1,0 +1,16 @@
+.\obj\stm32f10x_exti.o: ..\SPL\src\stm32f10x_exti.c
+.\obj\stm32f10x_exti.o: ..\SPL\inc\stm32f10x_exti.h
+.\obj\stm32f10x_exti.o: ..\CMSIS\stm32f10x.h
+.\obj\stm32f10x_exti.o: ..\CMSIS\core_cm3.h
+.\obj\stm32f10x_exti.o: C:\Keil473\ARM\ARMCC\bin\..\include\stdint.h
+.\obj\stm32f10x_exti.o: C:\Keil473\ARM\CMSIS\Include\core_cmInstr.h
+.\obj\stm32f10x_exti.o: C:\Keil473\ARM\CMSIS\Include\core_cmFunc.h
+.\obj\stm32f10x_exti.o: ..\CMSIS\system_stm32f10x.h
+.\obj\stm32f10x_exti.o: .\Src\stm32f10x_conf.h
+.\obj\stm32f10x_exti.o: ..\SPL\inc\stm32f10x_exti.h
+.\obj\stm32f10x_exti.o: ..\SPL\inc\stm32f10x_gpio.h
+.\obj\stm32f10x_exti.o: ..\CMSIS\stm32f10x.h
+.\obj\stm32f10x_exti.o: ..\SPL\inc\stm32f10x_rcc.h
+.\obj\stm32f10x_exti.o: ..\SPL\inc\stm32f10x_tim.h
+.\obj\stm32f10x_exti.o: ..\SPL\inc\stm32f10x_usart.h
+.\obj\stm32f10x_exti.o: ..\SPL\inc\misc.h

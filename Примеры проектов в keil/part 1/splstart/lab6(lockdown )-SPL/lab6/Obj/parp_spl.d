@@ -1,0 +1,14 @@
+.\obj\parp_spl.o: Src\ParP_SPL.c
+.\obj\parp_spl.o: ..\CMSIS\stm32f10x.h
+.\obj\parp_spl.o: ..\CMSIS\core_cm3.h
+.\obj\parp_spl.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\obj\parp_spl.o: C:\Keil\ARM\CMSIS\Include\core_cmInstr.h
+.\obj\parp_spl.o: C:\Keil\ARM\CMSIS\Include\core_cmFunc.h
+.\obj\parp_spl.o: ..\CMSIS\system_stm32f10x.h
+.\obj\parp_spl.o: .\Src\stm32f10x_conf.h
+.\obj\parp_spl.o: ..\SPL\inc\stm32f10x_gpio.h
+.\obj\parp_spl.o: ..\CMSIS\stm32f10x.h
+.\obj\parp_spl.o: ..\SPL\inc\stm32f10x_rcc.h
+.\obj\parp_spl.o: ..\SPL\inc\stm32f10x_tim.h
+.\obj\parp_spl.o: ..\SPL\inc\misc.h
+.\obj\parp_spl.o: Src\ParP.h
